@@ -45,4 +45,5 @@ module.exports = {
     },
   },
   plugins: [],
+  base: process.env.TAIL_BASE_PATH || "/IntelliHive-Web"
 };
